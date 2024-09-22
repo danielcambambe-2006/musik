@@ -105,22 +105,30 @@ aside{
     color: #ffffff; 
     padding: 10px;                                     
     border-radius: 10px;
-    width: 400px;
     height: 80px;
-  justify-content: center;
-  align-items: center;
-
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    min-width: 300px;
 }
 
 div img{
     align-items: center;
-    width: 100px;
-    height: 50px; 
     border-radius: 100px;
 }
+.foto{
+    max-width: 200px;
+    min-width: 60px;
+    max-height: 50px;
+    min-height: 30px;
+
+}
 audio{
-    width: 295px;
-    
+
+    max-width: 295px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 15px;
 }
 footer{
     color: #1e7387;
@@ -129,4 +137,3 @@ footer{
     padding: 10px;
     text-decoration: none;
 }
-        
