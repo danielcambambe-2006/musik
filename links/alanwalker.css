@@ -4,12 +4,14 @@
 body{
     margin: 0px;
     background-color: rgb(25, 193, 168);
+    width: 100%;
 }
 header{
     font-weight: normal;
     background-color: #1e7387; 
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 header h1{
     color: white;
