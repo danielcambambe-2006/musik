@@ -10,6 +10,11 @@ header{
     background-color: #1e7387; 
     padding: 10px;
     text-align: center;
+    max-width: auto; 
+    height: auto;
+    
+
+
 }
 header h1{
     color: white;
@@ -37,19 +42,19 @@ nav a:hover{
     border-radius: 10px;
 }
 
-main{
-    background-color: #efb89eb3;
+main{ 
+    background-color: #a34113b3;
     min-width: 350px; 
     max-width: 800px;
     margin: auto;  
-    height: 850px;
     padding: 0px 20px;     
     padding: 20px;
-    height: 2450px; 
+    height: 2550px; 
     background-image:url(../fundos/aleatorios.jpg);
     background-position: center;  
     background-repeat: repeat;
     background-size: cover;
+    
 }
 #foto{
     
@@ -61,12 +66,12 @@ main{
 }
 #margem{
     font-family: Arial, Helvetica, sans-serif;
-   display: flex;
+    display: flex;
     background-color: #6fa1a8d8;
     padding: 2px; 
     border-radius: 10px;
     color: #000000;
-   text-decoration: solid;
+    text-decoration: solid;
 }
 #margem p{
     line-height: 30px;
@@ -78,21 +83,7 @@ p>a{
     text-decoration: none;  
     padding: 5px; 
 }
-#y:hover{
-    background-color: #ff0000;
-    border-radius: 10px;
-    color: black;
-}
-#s:hover{
-    background-color: #0ab410;
-    border-radius: 10px;
-    color: black;   
-}
-#i:hover{
-    background-image: linear-gradient(to right, red,#c20cff);    
-    border-radius: 10px; 
-    color: black;
-}
+
     
 aside{
     display: flex;
@@ -107,22 +98,25 @@ aside{
     padding: 10px;                                     
     border-radius: 10px;
     height: 80px;
-  justify-content: center;
-  align-items: center;
-  font-family: Helvetica, sans-serif;
-  font-size: medium;
-  width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 400px;
+    min-width: 200px;
 
 }
 
 div img{
     align-items: center;
-    width: 100px;
-    height: 50px; 
+    width: 50px;
+    height: 50px;  
     border-radius: 100px;
 }
+
 audio{
     width: 295px;
+    max-width: 200px; 
 }
 
 footer{
