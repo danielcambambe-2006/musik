@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+html, body {
+    overflow-x: hidden;
+}
 
 body{
     margin: 0px;
@@ -49,12 +52,12 @@ main{
     margin: auto;  
     padding: 0px 20px;     
     padding: 20px;
-    height: 2550px; 
+    height: auto; 
     background-image:url(../fundos/aleatorios.jpg);
     background-position: center;  
     background-repeat: repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
 }
 #foto{
     
@@ -102,8 +105,8 @@ aside{
     align-items: center;
     font-family: Helvetica, sans-serif;
     font-size: medium;
-    max-width: 400px;
-    min-width: 200px;
+    width: auto;
+    
 
 }
 
@@ -116,7 +119,7 @@ div img{
 
 audio{
     width: 295px;
-    max-width: 200px; 
+    max-width: 180px; 
 }
 
 footer{

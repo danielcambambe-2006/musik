@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-
+html, body {
+    overflow-x: hidden;
+}
 body{
     margin: 0px;
     background-color: #8a2893;
@@ -43,14 +45,14 @@ main{
     min-width: 350px; 
     max-width: 800px;
     margin: auto;  
-    height: 850px;
+    height: auto;
     padding: 0px 20px;     
     padding: 20px;
-    height: 900px; 
     background-image:url(./imagens/justin\ bieber-1.jpg);
     background-position: center; 
     background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #foto{
@@ -114,7 +116,7 @@ aside{
     justify-content: center;
     align-items: center; 
     font-family: Helvetica, sans-serif;
-    width: 400px;
+    width: auto;
 }
 div{
     text-align: center;
@@ -122,12 +124,13 @@ div{
 
 div img{
     align-items: center;
-    width: 100px;
+    width: 70px;
     height: 50px; 
     border-radius: 100px;
 }
 audio{
   width: 295px;
+  max-width: 180px; 
 }
 
 footer{

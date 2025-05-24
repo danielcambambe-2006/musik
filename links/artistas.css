@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ /*@charset "UTF-8";
 
 
 body{
@@ -14,12 +14,12 @@ header{
 header h1{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-style: italic; 
 } 
 
 h1 mark{
     font-family:'Peristiwa';
-    background-color: transparent;
+    background-color: transparent; 
     color: #742ce7;} 
 nav{ 
     text-align: left;
@@ -57,7 +57,7 @@ main{
     /*<uniquifier>: Use a unique and descriptive class name
     <weight>: Use a value from 400 to 900*/
     
-    .bodoni{
+    /*.bodoni{
         font-family: "bodoni", serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -75,13 +75,13 @@ main{
     .container {
         display: flex;
         justify-content: space-around; /* Espaço igual entre os itens e um pouco de espaço nas bordas */
-        align-items: center; /* Centraliza os itens verticalmente */
-        flex-wrap: wrap
-      }
+        /*align-items: center; /* Centraliza os itens verticalmente */
+        /*flex-wrap: wrap
+      /*}
       .image-container {
         display: flex;
         justify-content: space-around; /* Distribui os itens com espaço entre eles */
-      }
+      /*}
     
       .image-item {
         text-align: center;}
@@ -105,5 +105,126 @@ footer{
     text-align: center;
     padding: 10px;
     text-decoration: none;
+}*/
+    
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color: #cdb0ac;
 }
-        
+
+header {
+    font-weight: normal;
+    background-color: #1e7387;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 mark {
+    font-family: 'Peristiwa';
+    background-color: transparent;
+    color: #742ce7;
+}
+
+nav {
+    text-align: left;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #0fd7ff;
+    border-radius: 10px;
+}
+
+main {
+    background-color: #efb79e;
+    min-width: 320px; /* Ajustado */
+    max-width: 800px;
+    margin: auto;
+    height: auto; /* Alterado de 850px para auto */
+    padding: 0px 20px;
+    padding-top: 5px;
+}
+
+main>h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center; 
+    color: #1e7387; 
+}
+
+.bodoni {
+    font-family: "bodoni", serif;
+    font-optical-sizing: auto; 
+    font-weight: 400;
+    font-style: normal;  
+    font-style: italic;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.618);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.image-item {
+    text-align: center;
+    margin: 10px; /* Adiciona espaçamento */
+}
+
+div>a {
+    text-decoration: none;
+    color: #1e7387;
+}
+
+div a>p:hover {
+    color: #600fd8;
+    background-color: #13cdf7;
+    border-radius: 10px;
+}
+
+footer {
+    color: #1e7387;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 600px) {
+    nav {
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+
+    nav a {
+        display: block;
+        padding: 10px; 
+    }
+
+    .container {
+        flex-direction: column; /* Empilha os itens verticalmente */
+    }
+}

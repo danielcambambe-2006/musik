@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
-
+html, body {
+    overflow-x: hidden;
+}
 body{
     margin: 0px;
     background-color: rgb(25, 193, 168);
-    width: 100%;
+    width: auto;
 }
 header{
     font-weight: normal;
@@ -44,15 +46,14 @@ main{
     min-width: 350px; 
     max-width: 800px;
     margin: auto;  
-    height: 850px;
+    height: auto;
     padding: 0px 20px;    
     padding: 20px;
-    height: 900px; 
     background-image:url(../fundos/alan-walker-1.jpg);
     background-position: center; 
     background-repeat: repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
 }
 #foto{
     height: 250px;
@@ -110,27 +111,21 @@ aside{
     height: 80px;
     justify-content: center;
     align-items: center;
-    max-width: 450px;
-    min-width: 300px;
+    width: auto;
+
 }
+
 
 div img{
     align-items: center;
-    border-radius: 100px;
-}
-.foto{
-    max-width: 200px;
-    min-width: 60px;
-    max-height: 50px;
-    min-height: 30px;
-
-}
+    width: 60px;
+    height: 50px; 
+    border-radius: 100px;}
 audio{
 
-    max-width: 295px;
-    min-width: 100px;
-    max-height: 100px;
-    min-height: 15px;
+    width: 295px;
+    max-width: 180px; 
+ 
 }
 footer{
     color: #1e7387;
@@ -138,4 +133,5 @@ footer{
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    width: 100%;
 }

@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-
+html, body {
+    overflow-x: hidden;
+}
 body{
     margin: 0px;
     background-color: #790aa4;
@@ -42,14 +44,14 @@ main{
     min-width: 350px; 
     max-width: 800px;
     margin: auto;  
-    height: 850px;
+    height: auto;
     padding: 0px 20px;     
     padding: 20px;
-    height: 900px; 
     background-image:url(../fundos/ariana-grande.jpg);
     background-position: center; 
     background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 #foto{
     
@@ -112,17 +114,19 @@ aside{
     align-items: center;
     font-family: Helvetica, sans-serif;
     font-size: medium;
-    width: 400px;
+    width: auto;
 }
 
 div img{
     align-items: center;
-    width: 100px;
+    width: 70px;
     height: 50px; 
-    border-radius: 100px;
+    border-radius: 60px;
 }
 audio{
     width: 295px;
+    max-width: 180px; 
+
 }
 
 footer{
