@@ -215,16 +215,14 @@ footer {
 
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 600px) {
-    nav {
-        text-align: left; /* Alinha o texto à esquerda */
-    }
-
-    nav a {
-        display: block;
-        padding: 10px; 
-    }
-
-    .container {
-        flex-direction: column; /* Empilha os itens verticalmente */
-    }
+ /*.container {
+        flex-direction: column; /* Empilha os itens verticalmente }*/
+ img{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.618);
+    } 
 }
+
+    
